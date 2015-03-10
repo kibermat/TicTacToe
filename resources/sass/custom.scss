@@ -1,0 +1,63 @@
+body {
+  background: url(../images/jeans-tile.jpg) repeat;
+}
+#content {
+  height: 960px;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  border: 1px dashed;
+  border-color: #ccc9d1;
+  background: #F7F3F0;
+}
+#header {
+  margin: 16px;
+}
+#step {
+  margin-top: 8px;
+}
+
+.ui-selecting-1 {
+  background: url(../images/1.png) no-repeat;
+}
+.ui-selecting-2 {
+  background: url(../images/x.png) no-repeat;
+}
+.tictactoe-table {
+  margin: auto;
+}
+.tictactoe-table-td {
+  border: solid 1px grey;
+  height: 24px;
+  width: 24px;
+}
+
+#header > input {
+  margin-left: 16px;
+  margin-right: 16px;
+  border-bottom: 2px dashed;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+
+  transition: all 0.30s ease-in-out;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+}
+#header > .player-active, #header > input:focus {
+  border:#66AFE9 2px solid;
+  box-shadow: 0 0 5px #51CBEE;
+  -webkit-box-shadow: 0 0 5px #51CBEE;
+  -moz-box-shadow: 0 0 5px #51CBEE;
+}
+.ui-selecting-strike {
+  box-shadow: 0 0 8px #ee342a;
+  background-color: #ef0024;
+  -webkit-box-shadow: 0 0 20px #EE5155;
+  -moz-box-shadow: 0 0 5px #EE5155;
+
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+}
