@@ -1,66 +1,103 @@
-body {
-    background: url(../images/jeans-tile.jpg) repeat;
+/* line 72, icon-player/*.png */
+.icon-player-sprite, .icon-player-1, .icon-player-2, .icon-player-3, .icon-player-4 {
+  background-image: url('../images/icon-player-s515bc399d6.png');
+  background-repeat: no-repeat;
 }
+
+/* line 12, ../sass/custom.scss */
+.icon-player {
+  width: 27px;
+  height: 27px;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-player-1 {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-player-2 {
+  background-position: 0 -27px;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-player-3 {
+  background-position: 0 -51px;
+}
+
+/* line 84, ../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-player-4 {
+  background-position: 0 -78px;
+}
+
+/* line 34, ../sass/custom.scss */
 #content {
-    height: 960px;
-    width: 900px;
-    margin: 0 auto;
-    padding: 0px;
-    text-align: center;
-    border: 1px dashed;
-    border-color: #ccc9d1;
-    background: #F7F3F0;
+  /*height: 960px;*/
+  /*width: 900px;*/
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  border: 1px dashed;
+  border-color: #ccc9d1;
+  background: #F7F3F0;
+  display: inline-block;
 }
+
+/* line 45, ../sass/custom.scss */
 #header {
-    margin: 16px;
+  margin: 16px;
 }
+
+/* line 48, ../sass/custom.scss */
 #step {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
-.ui-selecting-1 {
-    background: url(../images/1.png) no-repeat;
-}
-.ui-selecting-2 {
-    background: url(../images/x.png) no-repeat;
-}
-.ui-selecting-3 {
-    background: url(../images/3.png) no-repeat;
-}
+/* line 52, ../sass/custom.scss */
 .tictactoe-table {
-    margin: auto;
+  margin: auto;
 }
+
+/* line 55, ../sass/custom.scss */
 .tictactoe-table-td {
-    border: solid 1px grey;
-    height: 24px;
-    width: 24px;
+  border: solid 2px grey;
+  height: 24px;
+  width: 24px;
 }
 
-#header > input {
-    margin-left: 16px;
-    margin-right: 16px;
-    border-bottom: 2px dashed;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    -webkit-border-radius:5px;
+/* line 61, ../sass/custom.scss */
+input {
+  margin: 8px;
+  border-bottom: 2px dashed;
+  border-radius: 5px;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  transition: all 0.30s ease-in-out;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+}
 
-    transition: all 0.30s ease-in-out;
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
+/* line 73, ../sass/custom.scss */
+.tictac_player {
+  height: 24px;
 }
-#header > .player-active, #header > input:focus {
-    border:#66AFE9 2px solid;
-    box-shadow: 0 0 5px #51CBEE;
-    -webkit-box-shadow: 0 0 5px #51CBEE;
-    -moz-box-shadow: 0 0 5px #51CBEE;
+
+/* line 77, ../sass/custom.scss */
+.player-active, #content > input:focus {
+  border: #66AFE9 2px solid;
+  box-shadow: 0 0 5px #51CBEE;
+  -webkit-box-shadow: 0 0 5px #51CBEE;
+  -moz-box-shadow: 0 0 5px #51CBEE;
 }
+
+/* line 84, ../sass/custom.scss */
 .ui-selecting-strike {
-    box-shadow: 0 0 8px #ee342a;
-    background-color: #ef0024;
-    -webkit-box-shadow: 0 0 20px #EE5155;
-    -moz-box-shadow: 0 0 5px #EE5155;
-
-    border-radius:8px;
-    -moz-border-radius:8px;
-    -webkit-border-radius:8px;
+  box-shadow: 0 0 8px #ee342a;
+  background-color: #ef0024;
+  -webkit-box-shadow: 0 0 20px #EE5155;
+  -moz-box-shadow: 0 0 5px #EE5155;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
 }

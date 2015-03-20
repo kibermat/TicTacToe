@@ -1,15 +1,46 @@
-body {
-  background: url(../images/jeans-tile.jpg) repeat;
+$zoom: 1;
+$icon-player-size: 27px;
+$icon-tools-size: 25px;
+$table-td-size: 24px;
+
+
+//импортируем иконки игроков
+@import "icon-player/*.png";
+$width: 27px;
+$height: 27px;
+
+.icon-player {
+  width: $width;
+  height: $height;
+
 }
+//$disable-magic-sprite-selectors:true;
+@include all-icon-player-sprites;
+
+//http://susydocs.oddbird.net/en/latest/install/
+//@import "susy";
+//
+//body { @include container(80em); }
+//nav { @include span(25%); }
+
+
+//$icon-player: sprite-map("icon-player/*.png", $spacing: 27px); // contains icons/new.png among others.
+//background: sprite($icon-player, sprite-map-name($icon-player), sprite-width($icon-player), sprite-height($icon-player)) no-repeat;
+
+//body {
+// /* background: sprite($sprite, img-name, 27px, 27px) no-repeat; */
+//}
+
 #content {
-  height: 960px;
-  width: 900px;
+  /*height: 960px;*/
+  /*width: 900px;*/
   margin: 0 auto;
   padding: 0px;
   text-align: center;
   border: 1px dashed;
   border-color: #ccc9d1;
   background: #F7F3F0;
+  display: inline-block;
 }
 #header {
   margin: 16px;
@@ -18,26 +49,20 @@ body {
   margin-top: 8px;
 }
 
-.ui-selecting-1 {
-  background: url(../images/1.png) no-repeat;
-}
-.ui-selecting-2 {
-  background: url(../images/x.png) no-repeat;
-}
 .tictactoe-table {
   margin: auto;
 }
 .tictactoe-table-td {
-  border: solid 1px grey;
-  height: 24px;
-  width: 24px;
+  border: solid 2px grey;
+  height: $table-td-size * $zoom;
+  width: $table-td-size * $zoom;
 }
 
-#header > input {
-  margin-left: 16px;
-  margin-right: 16px;
+input {
+  margin: 8px;
   border-bottom: 2px dashed;
   border-radius:5px;
+  text-align: center;
   -moz-border-radius:5px;
   -webkit-border-radius:5px;
 
@@ -45,12 +70,17 @@ body {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
 }
-#header > .player-active, #header > input:focus {
+.tictac_player {
+  height: 24px;
+}
+
+.player-active, #content > input:focus {
   border:#66AFE9 2px solid;
   box-shadow: 0 0 5px #51CBEE;
   -webkit-box-shadow: 0 0 5px #51CBEE;
   -moz-box-shadow: 0 0 5px #51CBEE;
 }
+
 .ui-selecting-strike {
   box-shadow: 0 0 8px #ee342a;
   background-color: #ef0024;
