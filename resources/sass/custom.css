@@ -2,22 +2,22 @@
 Error: File to import not found or unreadable: icon-player/*.png.
        Load paths:
          
-        on line 8 of custom.scss
+        on line 13 of custom.scss
 
-3: $icon-tools-size: 25px;
-4: $table-td-size: 24px;
-5: 
-6: 
-7: //╨╕╨╝╨┐╨╛╤А╤В╨╕╤А╤Г╨╡╨╝ ╨╕╨║╨╛╨╜╨║╨╕ ╨╕╨│╤А╨╛╨║╨╛╨▓
-8: @import "icon-player/*.png";
-9: $width: 27px;
-10: $height: 27px;
+8:   background-repeat: no-repeat;
+9:   background-size: cover;
+10: }
 11: 
-12: .icon-player {
-13:   width: $width;
+12: //╨╕╨╝╨┐╨╛╤А╤В╨╕╤А╤Г╨╡╨╝ ╨╕╨║╨╛╨╜╨║╨╕ ╨╕╨│╤А╨╛╨║╨╛╨▓
+13: @import "icon-player/*.png";
+14: 
+15: .icon-player {
+16:   width: $icon-player-size;
+17:   height: $icon-player-size;
+18: 
 
 Backtrace:
-custom.scss:8
+custom.scss:13
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
 C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -60,4 +60,4 @@ C:/Ruby21-x64/bin/scss:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: icon-player/*.png.\A        Load paths:\A          \A         on line 8 of custom.scss\A \A 3: $icon-tools-size: 25px;\A 4: $table-td-size: 24px;\A 5: \A 6: \A 7: //╨╕╨╝╨┐╨╛╤А╤В╨╕╤А╤Г╨╡╨╝ ╨╕╨║╨╛╨╜╨║╨╕ ╨╕╨│╤А╨╛╨║╨╛╨▓\A 8: @import \"icon-player/*.png\";\A 9: $width: 27px;\A 10: $height: 27px;\A 11: \A 12: .icon-player {\A 13:   width: $width;"; }
+  content: "Error: File to import not found or unreadable: icon-player/*.png.\A        Load paths:\A          \A         on line 13 of custom.scss\A \A 8:   background-repeat: no-repeat;\A 9:   background-size: cover;\A 10: }\A 11: \A 12: //╨╕╨╝╨┐╨╛╤А╤В╨╕╤А╤Г╨╡╨╝ ╨╕╨║╨╛╨╜╨║╨╕ ╨╕╨│╤А╨╛╨║╨╛╨▓\A 13: @import \"icon-player/*.png\";\A 14: \A 15: .icon-player {\A 16:   width: $icon-player-size;\A 17:   height: $icon-player-size;\A 18: "; }

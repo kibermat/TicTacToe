@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41dfc78c-2946-429e-a2bf-f287d44f7d25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Handlers.js" />
-      <change type="DELETED" beforePath="C:\Site\localhost\www\TicTacToe\resources\images\x.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Players.js" afterPath="$PROJECT_DIR$/js/Players.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/config.rb" afterPath="$PROJECT_DIR$/resources/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/fon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/images/size.png" />
+      <change type="DELETED" beforePath="C:\Site\localhost\www\TicTacToe\resources\images\title.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Site\localhost\www\TicTacToe\resources\images\1.png" afterPath="$PROJECT_DIR$/resources/images/2.png" />
+      <change type="MOVED" beforePath="C:\Site\localhost\www\TicTacToe\resources\images\2.png" afterPath="$PROJECT_DIR$/resources/images/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/.sass-cache/13b451358d4e15f8cd9bd8c032d62768482f1eef/custom.scssc" afterPath="$PROJECT_DIR$/resources/.sass-cache/13b451358d4e15f8cd9bd8c032d62768482f1eef/custom.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/custom.css" afterPath="$PROJECT_DIR$/resources/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/custom.css" afterPath="$PROJECT_DIR$/resources/sass/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/custom.scss" afterPath="$PROJECT_DIR$/resources/sass/custom.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/print.css" afterPath="$PROJECT_DIR$/resources/css/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/screen.css" afterPath="$PROJECT_DIR$/resources/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TicTacToe.iws" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="Players.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Players.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="1513">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state vertical-scroll-proportion="-19.72" vertical-offset="153" max-vertical-offset="1513">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -48,18 +49,18 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="e#87#154#0" expanded="false" />
-                <element signature="e#826#1135#0" expanded="false" />
-                <element signature="e#2001#2467#0" expanded="false" />
-                <element signature="e#2502#2710#0" expanded="false" />
-                <element signature="e#2737#3880#0" expanded="false" />
-                <marker date="1426750064550" expanded="true" signature="470:515" placeholder="..." />
-                <marker date="1426750064550" expanded="true" signature="672:717" placeholder="..." />
-                <marker date="1426750064550" expanded="true" signature="923:968" placeholder="..." />
-                <marker date="1426750064550" expanded="true" signature="1077:1122" placeholder="..." />
+                <element signature="e#1808#1977#0" expanded="false" />
+                <element signature="e#2017#2483#0" expanded="false" />
+                <element signature="e#2518#2726#0" expanded="false" />
+                <element signature="e#2753#3921#0" expanded="false" />
+                <marker date="1427122813559" expanded="true" signature="470:515" placeholder="..." />
+                <marker date="1427122813559" expanded="true" signature="672:717" placeholder="..." />
+                <marker date="1427122813559" expanded="true" signature="923:976" placeholder="..." />
+                <marker date="1427122813559" expanded="true" signature="1085:1138" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -68,28 +69,28 @@
       <file leaf-file-name="custom.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.115385" vertical-offset="825" max-vertical-offset="1683">
-              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1853">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="1853">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="697">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.09059829" vertical-offset="15" max-vertical-offset="612">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -111,20 +112,21 @@
         <option value="$PROJECT_DIR$/js/CreateTable.js" />
         <option value="$PROJECT_DIR$/js/lib/doT.js" />
         <option value="$PROJECT_DIR$/js/Handlers.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/resources/sass/test.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/config.rb" />
         <option value="$PROJECT_DIR$/js/Players.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/resources/sass/custom.scss" />
         <option value="$PROJECT_DIR$/resources/css/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="638" />
-    <option name="width" value="1197" />
-    <option name="height" value="1080" />
+    <option name="x" value="55" />
+    <option name="y" value="-8" />
+    <option name="width" value="1873" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -380,20 +382,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="638" y="0" width="1197" height="1080" extended-state="1" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32719395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32161874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884398" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17374727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918744" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32694355" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -439,7 +441,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -465,14 +467,14 @@
           <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
           <folding>
             <element signature="e#87#154#0" expanded="false" />
-            <element signature="e#826#1135#0" expanded="false" />
-            <element signature="e#2001#2467#0" expanded="false" />
-            <element signature="e#2502#2710#0" expanded="false" />
-            <element signature="e#2737#3880#0" expanded="false" />
-            <marker date="1426750064550" expanded="true" signature="470:515" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="672:717" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="923:968" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="1077:1122" placeholder="..." />
+            <element signature="e#1808#1977#0" expanded="false" />
+            <element signature="e#2017#2483#0" expanded="false" />
+            <element signature="e#2518#2726#0" expanded="false" />
+            <element signature="e#2753#3921#0" expanded="false" />
+            <marker date="1427122813559" expanded="true" signature="470:515" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="672:717" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="923:976" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="1085:1138" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -555,14 +557,14 @@
           <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding>
             <element signature="e#87#154#0" expanded="false" />
-            <element signature="e#826#1135#0" expanded="false" />
-            <element signature="e#2001#2467#0" expanded="false" />
-            <element signature="e#2502#2710#0" expanded="false" />
-            <element signature="e#2737#3880#0" expanded="false" />
-            <marker date="1426750064550" expanded="true" signature="470:515" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="672:717" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="923:968" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="1077:1122" placeholder="..." />
+            <element signature="e#1808#1977#0" expanded="false" />
+            <element signature="e#2017#2483#0" expanded="false" />
+            <element signature="e#2518#2726#0" expanded="false" />
+            <element signature="e#2753#3921#0" expanded="false" />
+            <marker date="1427122813559" expanded="true" signature="470:515" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="672:717" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="923:976" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="1085:1138" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -644,43 +646,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="697">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
-          <folding>
-            <element signature="e#87#154#0" expanded="false" />
-            <element signature="e#826#1135#0" expanded="false" />
-            <element signature="e#2001#2467#0" expanded="false" />
-            <element signature="e#2502#2710#0" expanded="false" />
-            <element signature="e#2737#3880#0" expanded="false" />
-            <marker date="1426750064550" expanded="true" signature="470:515" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="672:717" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="923:968" placeholder="..." />
-            <marker date="1426750064550" expanded="true" signature="1077:1122" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/ie.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="531">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/icon-player-s515bc399d6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/custom.css.map">
@@ -710,26 +681,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/icon-player-s515bc399d6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/Players.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state vertical-scroll-proportion="-19.72" vertical-offset="153" max-vertical-offset="1513">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#87#154#0" expanded="false" />
+            <element signature="e#1808#1977#0" expanded="false" />
+            <element signature="e#2017#2483#0" expanded="false" />
+            <element signature="e#2518#2726#0" expanded="false" />
+            <element signature="e#2753#3921#0" expanded="false" />
+            <marker date="1427122813559" expanded="true" signature="470:515" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="672:717" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="923:976" placeholder="..." />
+            <marker date="1427122813559" expanded="true" signature="1085:1138" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.115385" vertical-offset="825" max-vertical-offset="1683">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1853">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.09059829" vertical-offset="15" max-vertical-offset="612">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>

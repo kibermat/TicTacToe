@@ -1,10 +1,17 @@
+/* line 6, ../sass/custom.scss */
+body {
+  background-image: url("../images/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* line 72, icon-player/*.png */
 .icon-player-sprite, .icon-player-1, .icon-player-2, .icon-player-3, .icon-player-4 {
   background-image: url('../images/icon-player-s515bc399d6.png');
   background-repeat: no-repeat;
 }
 
-/* line 12, ../sass/custom.scss */
+/* line 15, ../sass/custom.scss */
 .icon-player {
   width: 27px;
   height: 27px;
@@ -30,42 +37,55 @@
   background-position: 0 -78px;
 }
 
-/* line 34, ../sass/custom.scss */
+/* line 32, ../sass/custom.scss */
+.player-tools {
+  border: groove;
+  vertical-align: middle;
+  border-bottom: 2px solid;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+/* line 41, ../sass/custom.scss */
+.img-tool-player:active {
+  background: #51CBEE;
+  box-shadow: 0 0 5px #51CBEE;
+  -webkit-box-shadow: 0 0 5px #51CBEE;
+  -moz-box-shadow: 0 0 5px #51CBEE;
+}
+
+/* line 48, ../sass/custom.scss */
 #content {
-  /*height: 960px;*/
-  /*width: 900px;*/
+  width: 100%;
   margin: 0 auto;
-  padding: 0px;
   text-align: center;
-  border: 1px dashed;
-  border-color: #ccc9d1;
-  background: #F7F3F0;
   display: inline-block;
 }
 
-/* line 45, ../sass/custom.scss */
+/* line 55, ../sass/custom.scss */
 #header {
   margin: 16px;
 }
 
-/* line 48, ../sass/custom.scss */
+/* line 58, ../sass/custom.scss */
 #step {
   margin-top: 8px;
 }
 
-/* line 52, ../sass/custom.scss */
+/* line 62, ../sass/custom.scss */
 .tictactoe-table {
   margin: auto;
 }
 
-/* line 55, ../sass/custom.scss */
+/* line 65, ../sass/custom.scss */
 .tictactoe-table-td {
-  border: solid 2px grey;
+  border: solid 2px #4371aa;
   height: 24px;
   width: 24px;
 }
 
-/* line 61, ../sass/custom.scss */
+/* line 71, ../sass/custom.scss */
 input {
   margin: 8px;
   border-bottom: 2px dashed;
@@ -78,12 +98,12 @@ input {
   -moz-transition: all 0.30s ease-in-out;
 }
 
-/* line 73, ../sass/custom.scss */
+/* line 83, ../sass/custom.scss */
 .tictac_player {
   height: 24px;
 }
 
-/* line 77, ../sass/custom.scss */
+/* line 87, ../sass/custom.scss */
 .player-active, #content > input:focus {
   border: #66AFE9 2px solid;
   box-shadow: 0 0 5px #51CBEE;
@@ -91,7 +111,7 @@ input {
   -moz-box-shadow: 0 0 5px #51CBEE;
 }
 
-/* line 84, ../sass/custom.scss */
+/* line 94, ../sass/custom.scss */
 .ui-selecting-strike {
   box-shadow: 0 0 8px #ee342a;
   background-color: #ef0024;

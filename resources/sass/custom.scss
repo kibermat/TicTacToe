@@ -3,15 +3,18 @@ $icon-player-size: 27px;
 $icon-tools-size: 25px;
 $table-td-size: 24px;
 
+body {
+  background-image: url('../images/fon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 //импортируем иконки игроков
 @import "icon-player/*.png";
-$width: 27px;
-$height: 27px;
 
 .icon-player {
-  width: $width;
-  height: $height;
+  width: $icon-player-size;
+  height: $icon-player-size;
 
 }
 //$disable-magic-sprite-selectors:true;
@@ -23,25 +26,32 @@ $height: 27px;
 //body { @include container(80em); }
 //nav { @include span(25%); }
 
-
 //$icon-player: sprite-map("icon-player/*.png", $spacing: 27px); // contains icons/new.png among others.
 //background: sprite($icon-player, sprite-map-name($icon-player), sprite-width($icon-player), sprite-height($icon-player)) no-repeat;
 
-//body {
-// /* background: sprite($sprite, img-name, 27px, 27px) no-repeat; */
-//}
+.player-tools {
+  border: groove;
+  vertical-align: middle;
+  border-bottom: 2px solid;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.img-tool-player:active {
+  background: #51CBEE;
+  box-shadow: 0 0 5px #51CBEE;
+  -webkit-box-shadow: 0 0 5px #51CBEE;
+  -moz-box-shadow: 0 0 5px #51CBEE;
+}
 
 #content {
-  /*height: 960px;*/
-  /*width: 900px;*/
+  width: 100%;
   margin: 0 auto;
-  padding: 0px;
   text-align: center;
-  border: 1px dashed;
-  border-color: #ccc9d1;
-  background: #F7F3F0;
   display: inline-block;
 }
+
 #header {
   margin: 16px;
 }
@@ -53,7 +63,7 @@ $height: 27px;
   margin: auto;
 }
 .tictactoe-table-td {
-  border: solid 2px grey;
+  border: solid 2px rgb(67, 113, 170);
   height: $table-td-size * $zoom;
   width: $table-td-size * $zoom;
 }

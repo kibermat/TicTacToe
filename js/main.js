@@ -11,8 +11,8 @@ require(['CreateTable', 'Players', 'Handlers'], function (Table, Players, Handle
 //        '{{~}}'].join(''));
 
     var playerTools = [
-        '<image id="addPlayer" class="img-tool-player" src="./resources/images/add.png" style="width:20px; height:20px; vertical-align: sub;"></button>',
-        '<image id="delPlayer" class="img-tool-player" src="./resources/images/del.png" style="width:20px; height:20px; vertical-align: sub;"></button>'].join('');
+        '<image id="addPlayer" class="img-tool-player" src="./resources/images/add.png" style="width:20px; height:20px; vertical-align: text-bottom;"></button>',
+        '<image id="delPlayer" class="img-tool-player" src="./resources/images/del.png" style="width:20px; height:20px; vertical-align: text-bottom;"></button>'].join('');
 
     var content = $('#grid'),
         size = $('input[name="size_grid"]'),
@@ -84,6 +84,7 @@ require(['CreateTable', 'Players', 'Handlers'], function (Table, Players, Handle
 
             Handlers.showInfo(plGroup[0].getActive(), 'Первый ход');
 
+            //Ход игрока
             $('.tictactoe-table-td').click(
                 //TicTac.step
                 function () {
